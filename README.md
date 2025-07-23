@@ -19,7 +19,7 @@ Key Implementation Considerations:
 - Implementation of nearest-neighbor interaction rules
 - Creation of pseudo-random number generator for probabilistic spin flips
 - Consideration of temperature parameter simulation
-- Management synchronous state updates
+- Management of synchronous state updates
 
 # Key Features:
 
@@ -27,7 +27,7 @@ Key Implementation Considerations:
 
 - LFSR PRNG: Linear Feedback Shift Register for pseudo-random number generation
 - Spin Cell: Individual spin logic implementing Metropolis algorithm
--  Lattice Grid: 2D array of interconnected spin cells
+- Lattice Grid: 2D array of interconnected spin cells
 - Top Module: System integration with control and monitoring
 
 ## 2. Core Functionality
