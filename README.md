@@ -20,3 +20,19 @@ Key Implementation Considerations:
 - Creation of pseudo-random number generator for probabilistic spin flips
 - Consideration of temperature parameter simulation
 - Management synchronous state updates
+
+# Key Features:
+
+## 1. Modular Architecture
+
+- LFSR PRNG: Linear Feedback Shift Register for pseudo-random number generation
+- Spin Cell: Individual spin logic implementing Metropolis algorithm
+-  Lattice Grid: 2D array of interconnected spin cells
+- Top Module: System integration with control and monitoring
+
+## 2. Core Functionality
+
+- Spin Representation: 1-bit logic (1=up, 0=down) for ±1 spins
+- Nearest-Neighbor Interactions: Periodic boundary conditions
+- Metropolis Algorithm: Probabilistic spin flips based on energy difference
+- Temperature Control: Parameterizable temperature affecting flip probability
