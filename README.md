@@ -1,4 +1,4 @@
-# Ising_Model_2D_Simulation
+# Ising Model 2D Simulation
 
 ### Design of a basic 2D Ising Model simulation using digital logic gates and SystemVerilog, focusing on:
 1. Creation a finite lattice grid representation
